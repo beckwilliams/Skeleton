@@ -45,3 +45,10 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Frontend Files To Ignore
+/frontend/node_modules/*
+/frontend/app/bower_components/*
+
+# Backend Files To Ignore
+/backend/node_modules/*
