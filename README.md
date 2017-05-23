@@ -10,6 +10,3 @@
 - Run 'npm start'
 - npm and bower components will be installed
 - You will get a message saying:
--   Starting up http-server, serving ./app
--   Available on:
--     http://localhost:8000
