@@ -2,11 +2,11 @@
      User Global Variables
 *******************************/
 @primaryColor         : @red;
-@secondaryColor       : @blue;
+@secondaryColor       : @lightBlue;
 
-@blue                 : #B6D3E9;
+@lightBlue            : #B6D3E9;
 @grey                 : #484848;
-@pink                 : #3A5A78;
+@blue                 : #3A5A78;
 @red                  : #822B2F;
 
 @yellow               : #EFC21B;

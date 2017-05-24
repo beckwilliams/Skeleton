@@ -1,13 +1,16 @@
 <div>
   <h1 class="ui header">HOME</h1>
 
-  <div class="ui inverted segment">
-    <div class="ui message">
-      <div class="header">Time</div>
-      <span>{{time}}</span>
-    </div>
+  <img class="ui tiny circular image" src="./images/larry.png"
 
-    <button class="ui blue button" ng-click="getDate()">Get Current Date</button>
-    <button class="ui red button" ng-click="clearDate()">Clear Date</button>
-</div>
+  <div class="ui segment">
+    <div class="ui floating message">
+      <div class="header">Time</div>
+      <p>{{time}}</p>
+      <div>
+        <button class="ui primary button" ng-click="getDate()">Get Current Date</button>
+        <button class="ui secondary button" ng-click="clearDate()">Clear Date</button>
+      </div>
+    </div>
+  </div>
 </div>
