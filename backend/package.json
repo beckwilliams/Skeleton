@@ -1,7 +1,9 @@
 {
   "dependencies": {
-    "express": "^4.15.2"  }
-,
-"scripts": {
+    "express": "^4.15.2"
+  },
+  "scripts": {
+    "prestart": "npm install",
     "start": "node index.js"
-  }}
+  }
+}

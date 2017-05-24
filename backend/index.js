@@ -15,6 +15,7 @@ app.use(function (request, response, next) {
 
 // GET endpoint to get current date
 app.get('/date', function (req, res) {
+	console.log('Sending current date.');
 	res.send(new Date());
 });
 
