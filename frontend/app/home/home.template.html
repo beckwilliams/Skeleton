@@ -1,4 +1,13 @@
 <div>
-  <h1>HELLO</h1>
-  <div>The time is {{time}}</div>
+  <h1 class="ui header">HOME</h1>
+
+  <div class="ui inverted segment">
+    <div class="ui message">
+      <div class="header">Time</div>
+      <span>{{time}}</span>
+    </div>
+
+    <button class="ui blue button" ng-click="getDate()">Get Current Date</button>
+    <button class="ui red button" ng-click="clearDate()">Clear Date</button>
+</div>
 </div>

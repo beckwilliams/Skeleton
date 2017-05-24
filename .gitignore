@@ -49,6 +49,7 @@ Temporary Items
 # Frontend Files To Ignore
 /frontend/node_modules/*
 /frontend/app/bower_components/*
+/frontend/app/semantic/dist/*
 
 # Backend Files To Ignore
 /backend/node_modules/*
